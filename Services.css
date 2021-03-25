@@ -1,0 +1,33 @@
+.Services{
+    background-color: #feffff;
+    font-family: 'Mukta Mahee';
+    display: flex;
+    flex-direction: column;
+}
+.Services .services-title{
+    font-size: 1.148rem;
+    line-height: 4.63rem;
+    color: #b2b2b2;
+    font-weight: 700;
+}
+.Services .services-body{
+    display: flex;
+    flex-direction: row;
+}
+.Services .services-body .services-item-body{
+    display: flex;
+    flex-direction: row;
+}
+
+.services-item-body .services-details .services-topic{
+    font-size: 1.222rem;
+    line-height: 5.444rem;
+    font-weight: 700;
+    color: #272727;
+}
+.services-item-body .services-details p{
+    font-size: 1rem;
+    line-height: 1.556rem;
+    color: #272727;
+    font-weight: 400;
+}

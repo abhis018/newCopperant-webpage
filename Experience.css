@@ -1,0 +1,45 @@
+.Experience{
+    background-color: #feffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mukta Mahee';
+}
+.experience-title{
+    display: flex;
+    flex-direction: column;
+}
+.experience-title .title-head{
+    font-size: 1.852rem;
+    line-height: 5.444rem;
+    font-weight: 800;
+}
+.experience-title .title-head span{
+    color: #dd5214;
+}
+.experience-title .title-subhead{
+    font-size: 1rem;
+    list-style: 1.704rem;
+    font-weight: 600;
+    color: #4d4c4c;
+}
+.experience-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.experience-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.experience-industry{
+    display: flex;
+    flex-direction: row;
+}
+.industry-name{
+    font-size: 1.222rem;
+    color: #272727;
+    font-weight: 400;
+}

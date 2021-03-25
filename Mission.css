@@ -1,0 +1,27 @@
+.Mission{
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Mukta Mahee';
+}
+.Mission-title{
+    flex: 1;
+}
+.Mission-body{
+    flex: 4;
+}
+.Mission-title div{
+    font-size: 1.148rem;
+    line-height: 4.63rem;
+    color: #5e5e5e;
+    font-weight: 700;
+    align-items: center;
+}
+.Mission-body p{
+    font-size: 1.407rem;
+    line-height: 2.296rem;
+    color: #ffffff;
+    text-align: left;
+    font-family: "BuenosAiresTrialWeb";
+    align-items: center;
+}

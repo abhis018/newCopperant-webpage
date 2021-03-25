@@ -1,8 +1,9 @@
 .About{
-    background-color: rgb(137, 161, 230);
+    background-color: #feffff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: 'Mukta Mahee';
 }
 .About-title{
     flex: 1;
@@ -10,7 +11,7 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
-.title-head{
+.About-title .title-head{
     font-size: 1.148rem;
     line-height: 4.63rem;
     color: #c2c2c2;

@@ -1,0 +1,18 @@
+.Clients{
+    background-color: #f5f0ec;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Clients .clients-moto{
+    font-size: 1.148rem;
+    line-height: 1.556rem;
+    color: #272727;
+    font-weight: 400;
+}
+.sponsors{
+    margin-top: 2.222rem;
+    width: 50%;
+}

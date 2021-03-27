@@ -1,33 +1,56 @@
 .Services{
+    width: 100%;
     background-color: #feffff;
     font-family: 'Mukta Mahee';
     display: flex;
     flex-direction: column;
 }
+.inner-Services{
+    margin-top: 3.63rem;
+    margin-bottom: 3.556rem;
+    margin-left: 9.0625vw;
+    margin-right: 9.2708vw;
+}
 .Services .services-title{
-    font-size: 1.148rem;
-    line-height: 4.63rem;
+    font-size: 2.99vh;
+    line-height: 12.065vh;
     color: #b2b2b2;
     font-weight: 700;
 }
 .Services .services-body{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 }
-.Services .services-body .services-item-body{
+.services-body .services-item{
+    display: flex;
+    flex-direction: column;
+}
+.services-item-body{
     display: flex;
     flex-direction: row;
 }
-
+.services-item-body div img{
+    margin-top: 4vh;
+    width: 6vh;
+    height: 6vh;
+}
+.services-details{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 1rem; */
+}
 .services-item-body .services-details .services-topic{
-    font-size: 1.222rem;
-    line-height: 5.444rem;
+    font-size: 3.185vh;
+    line-height: 14.189vh;
     font-weight: 700;
     color: #272727;
 }
 .services-item-body .services-details p{
-    font-size: 1rem;
-    line-height: 1.556rem;
+    font-size: 2.6vh;
+    line-height: 4.054vh;
     color: #272727;
     font-weight: 400;
 }

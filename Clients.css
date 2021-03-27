@@ -1,14 +1,21 @@
 .Clients{
+    width: 100%;
     background-color: #f5f0ec;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
-
+.inner-Clients{
+    margin-top: 3.333rem;
+    margin-bottom: 3.926rem;
+    margin-left: 9.0625vw;
+    margin-right: 9.2708vw;
+}
 .Clients .clients-moto{
-    font-size: 1.148rem;
-    line-height: 1.556rem;
+    font-size: 2.66vh;
+    line-height: 3.6vh;
     color: #272727;
     font-weight: 400;
 }

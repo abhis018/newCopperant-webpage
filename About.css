@@ -1,25 +1,32 @@
 .About{
     background-color: #feffff;
+    font-family: 'Mukta Mahee';
+}
+.inner-About{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-family: 'Mukta Mahee';
+    margin-top: 5.852rem;
+    margin-bottom: 4rem;
+    margin-left: 9.0625vw;
+    margin-right: 9.2708vw;
 }
 .About-title{
-    flex: 1;
+    width: 100%;    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex: 1;
 }
 .About-title .title-head{
-    font-size: 1.148rem;
-    line-height: 4.63rem;
+    font-size: 3.03vh;
+    line-height: 12.25vh;
     color: #c2c2c2;
     font-weight: 800;
 }
 .title-subhead{
-    font-size: 5rem;
-    line-height: 5rem;
+    font-size: 12.83vh;
+    line-height: 13.23vh;
     font-weight: bold;
     font-family: "BuenosAiresTrialWeb";
 }
@@ -27,17 +34,36 @@
     color: #f36223;
 }
 .About-body{
-    flex: 1;
+    flex: 2;
+    padding-left: 9.916vw;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    
 }
-.About-body p{
-    font-size: 1rem;
+.About-body .paragraph{
+    font-size: 2.64vh;
+    line-height: 4.5vh;
     font-weight: 500;
     color: #4d4c4c;
 }
 .About-ques{
-    font-size: 1.607rem;
-    line-height: 5.444rem;
+    font-size: 3.72vh;
+    line-height: 14.41vh;
     color: #272727;
     font-weight:700;
+}
+
+
+
+
+@media only screen and (max-width: 385px) {
+    .About-title .title-subhead {
+      font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 286px) {
+    .About-title .title-subhead {
+      font-size: 2rem;
+    }
 }

@@ -1,25 +1,33 @@
 .Experience{
+    width: 100%;
     background-color: #feffff;
+    font-family: 'Mukta Mahee';
+}
+.inner-Experience{
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-family: 'Mukta Mahee';
+    flex-wrap: wrap;
+    margin-top: 3.556rem;
+    margin-bottom: 4.667rem;
+    margin-left: 9.0625vw;
+    margin-right: 9.2708vw;
 }
 .experience-title{
     display: flex;
     flex-direction: column;
 }
 .experience-title .title-head{
-    font-size: 1.852rem;
-    line-height: 5.444rem;
-    font-weight: 800;
+    font-size: 5.77vh;
+    line-height: 16.97vh;
+    font-weight: 700;
 }
 .experience-title .title-head span{
     color: #dd5214;
 }
 .experience-title .title-subhead{
-    font-size: 1rem;
-    list-style: 1.704rem;
+    font-size: 3.11vh;
+    line-height: 5.31vh;
     font-weight: 600;
     color: #4d4c4c;
 }
@@ -27,7 +35,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-evenly;
+    margin-top: 2.778rem;
 }
 .experience-list{
     display: flex;
@@ -37,9 +46,16 @@
 .experience-industry{
     display: flex;
     flex-direction: row;
+    padding-top: 1.5rem;
+}
+.experience-industry img{
+    width: 5.23vh;
+    height: 5.23vh;
 }
 .industry-name{
-    font-size: 1.222rem;
+    font-size: 2.83vh;
+    line-height: 5.97vh;
     color: #272727;
     font-weight: 400;
+    padding-left: 1.5rem;
 }

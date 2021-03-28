@@ -7,30 +7,41 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 1.852rem;
+    /* margin-top: 1.852rem;
     margin-bottom: 2.63rem;
     margin-left: 9.0625vw;
-    margin-right: 9.2708vw;
+    margin-right: 9.2708vw; */
     align-content: center;
+    margin-top: 2.865vw;
+    margin-bottom: 2.865vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
 }
 .footer-logo img{
-    width: 24.63vh;
+    /* width: 19.63vh; */
+    width: 10.417vw;
+    height: 9.219vw;
 }
 .Footer .footer-body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.footer-icon{
- margin-top: 2rem;
-}
+
 
 .Address{
-    font-size: 2.31vh;
-    line-height: 3.60vh;
+    /* font-size: 2.31vh;
+    line-height: 3.60vh; */
+    font-size: 1.406vw;
+    line-height: 2.188vw;
     color: #b2b2b2;
-    margin-left: 2vh;
-    margin-top: 0.5rem;
+    margin-left: 2.865vw;
+    margin-top: 1.614vw;
+    /* margin-left: 5vh;
+    margin-top: 2.5vh; */
+}
+.footer-icon{
+    margin-top: 3.385vw;
 }
 .Address-title div{
     font-weight: 600;
@@ -38,15 +49,26 @@
 .Address-body{
     line-height: 3.60vh;
     font-weight: 500;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
+    color: #777777;
+}
+.social-media{
+    margin-left: 2.604vw;
 }
 .social-media-contents{
     display: flex;
     flex-direction: column;
 }
 .footer-icon .social-media-contents .media-text{
-    font-size: 2.31vh;
+    /* font-size: 2.31vh;
+    line-height: 5.72vh; */
+    font-size: 1.406vw;
+    line-height: 2.51vw;
     font-weight: 400;
-    line-height: 5.72vh;
-    color: #b2b2b2;
+    color: #777777;
+}
+.social-media img{
+    padding-right: 1vh;
+    width: 2.344vw;
+    height: 2.344vw;
 }

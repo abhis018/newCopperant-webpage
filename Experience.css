@@ -8,54 +8,71 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 3.556rem;
+    /* margin-top: 3.556rem;
     margin-bottom: 4.667rem;
     margin-left: 9.0625vw;
-    margin-right: 9.2708vw;
+    margin-right: 9.2708vw; */
+    margin-top: 4.948vw;
+    margin-bottom: 4.948vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
 }
 .experience-title{
     display: flex;
     flex-direction: column;
+    color: #3b5054;
 }
 .experience-title .title-head{
-    font-size: 5.77vh;
-    line-height: 16.97vh;
+    /* font-size: 5.77vh;
+    line-height: 16.97vh; */
+    font-size: 2.604vw;
+    line-height: 7.656vw;
     font-weight: 700;
 }
 .experience-title .title-head span{
     color: #dd5214;
 }
 .experience-title .title-subhead{
-    font-size: 3.11vh;
-    line-height: 5.31vh;
-    font-weight: 600;
+    /* font-size: 2.64vh;
+    line-height: 4.5vh; */
+    font-size: 1.406vw;
+    line-height: 2.396vw;
+    font-weight: 500;
     color: #4d4c4c;
+    font-family: 'Mukta Mahee';
 }
 .experience-body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    margin-top: 2.778rem;
+    /* margin-top: 2.778rem; */
 }
 .experience-list{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 2.958vw;
 }
 .experience-industry{
     display: flex;
     flex-direction: row;
-    padding-top: 1.5rem;
+    padding-top: 2.083vw;
+    text-align: left;
 }
 .experience-industry img{
-    width: 5.23vh;
-    height: 5.23vh;
+    /* width: 4.23vh;
+    height: 4.23vh; */
+    width: 2.344vw;
+    height: 2.344vw;
 }
 .industry-name{
-    font-size: 2.83vh;
-    line-height: 5.97vh;
+    /* font-size: 2.83vh;
+    line-height: 5.97vh; */
+    font-size: 1.719vw;
+    line-height: 2.448vw;
     color: #272727;
     font-weight: 400;
-    padding-left: 1.5rem;
+    padding-left: 1.406vw;
+    /* padding-left: 1.5rem; */
 }

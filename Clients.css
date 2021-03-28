@@ -8,18 +8,25 @@
     flex-wrap: wrap;
 }
 .inner-Clients{
-    margin-top: 3.333rem;
+    /* margin-top: 3.333rem;
     margin-bottom: 3.926rem;
     margin-left: 9.0625vw;
-    margin-right: 9.2708vw;
+    margin-right: 9.2708vw; */
+    margin-top: 3.083vw;
+    margin-bottom: 3.083vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
 }
 .Clients .clients-moto{
-    font-size: 2.66vh;
-    line-height: 3.6vh;
+    /* font-size: 2.66vh;
+    line-height: 3.6vh; */
+    font-size: 1.615vw;
+    line-height: 2.188vw;
     color: #272727;
     font-weight: 400;
 }
 .sponsors{
-    margin-top: 2.222rem;
+    /* margin-top: 2.222rem; */
+    margin-top: 1.5vw;
     width: 50%;
 }

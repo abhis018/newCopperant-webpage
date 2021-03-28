@@ -7,37 +7,44 @@
     background-repeat: no-repeat;
 }
 .inner-Mission{
-    margin-top: 12.61vh;
+    /* margin-top: 12.61vh;
     margin-bottom: 12.61vh;
     margin-left: 9.0625vw;
-    margin-right: 9.2708vw;
+    margin-right: 9.2708vw; */
     display: flex;
     flex-direction: row;
     /* align-items: center; */
     flex-wrap: wrap;
+    margin-top: 7.448vw;
+    margin-bottom: 7.448vw;
+    margin-left: 8.958vw;
+    margin-right: 8.958vw;
 }
 .Mission-title{
     flex: 1;
-    font-size: 2.66vh;
-    line-height: 10.72vh;
+    font-size: 1.615vw;
+    line-height: 2.51vw;
     color: #5e5e5e;
     font-weight: 700;
 }
 .Mission-body{
-    flex: 2;
+    flex: 4;
     /* margin-top: 3vh; */
-    width: 164.8vh;
-    /* height: 22.77vh; */
-    font-size: 3.26vh;
-    line-height: 5.32vh;
+    font-size: 1.979vw;
+    line-height: 3.229vw;
     color: #ffffff;
     text-align: left;
     font-family: "BuenosAiresTrialWeb";
     align-items: center;
 }
 
-@media only screen and (max-width: 385px) {
-    .Mission-body {
-      font-size: 0.5rem;
+    /* @media only screen and (max-width: 740px) {
+        .Mission-body {
+        font-size: 0.6rem;
+        }
     }
-}
+    @media only screen and (max-width: 300px) {
+        .Mission-body {
+        font-size: 0.4rem;
+        }
+    } */

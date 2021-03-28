@@ -6,18 +6,12 @@
     flex-direction: column;
 }
 .inner-Services{
-    /* margin-top: 3.63rem;
-    margin-bottom: 3.556rem;
-    margin-left: 9.0625vw;
-    margin-right: 9.2708vw; */
     margin-top: 2.208vw;
     margin-bottom: 2.208vw;
     margin-left: 8.958vw;
     margin-right: 8.958vw;
 }
 .Services .services-title{
-    /* font-size: 2.99vh;
-    line-height: 12.065vh; */
     font-size: 1.615vw;
     line-height: 6.51vw;
     color: #b2b2b2;
@@ -26,7 +20,6 @@
 .Services .services-body{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -49,16 +42,12 @@
     flex-direction: column;
 }
 .services-item-body .services-details .services-topic{
-    /* font-size: 3.185vh;
-    line-height: 6.189vh; */
     font-size: 1.719vw;
     line-height: 4.5vw;
     font-weight: 700;
     color: #272727;
 }
 .services-item-body .services-details p{
-    /* font-size: 2.6vh;
-    line-height: 4.054vh; */
     font-size: 1.406vw;
     /* line-height: 3.229vw; */
     color: #272727;

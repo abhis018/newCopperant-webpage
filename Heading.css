@@ -29,10 +29,6 @@
     background-repeat: no-repeat;
 }
 .inner-heading{
-    /* margin-top: 1.296rem;
-    margin-bottom: 1.296rem;
-    margin-left: 9.0625vw;
-    margin-right: 9.2708vw; */
     margin-top: 2.083vw;
     margin-bottom: 2.083vw;
     margin-left: 8.958vw;
@@ -43,49 +39,37 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
     align-content: center;
 }
 .logo{
     align-items: center;
 }
 .logo img{
-    /* width: 24.63vh; */
     width: 16.458vw;
     height: 5.208vw;
 }
 .menu{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-    /* font-size: 2.14vh;
-    line-height: 8.54vh; */
     font-size: 1.302vw;
     line-height: 5.208vw;
     font-weight: 500;
     align-items: center;
 }
 .menu div{
-    /* padding-right: 1.704rem; */
     margin-right: 1.979vw;
     color: #feffff;
 }
 .menu button{
     background-color: #fff;
-    /* width: 15.19vh;
-    height: 6.43vh;
-    border-radius: 3.17vh; */
     width: 9.219vw;
     height: 3.906vw;
     border-radius: 1.927vw;
     font-size: 1.302vw;
     line-height: 4.202vw;
-    /* font-size: 2.14vh; */
-    /* line-height: 8.58vh; */
     filter: drop-shadow(0px 8px 17.5px rgba(0,0,0,0.21));
     font-weight: 600;
     color: #2c2a29;
-    /* text-align: center; */
     border: none;
 }
 
@@ -96,11 +80,8 @@
 .Heading-title{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    /* margin-top: 10.37rem;
-    margin-bottom: 11.223rem; */
     margin-top: 14.375vw;
 }
 .Heading-title .title-head{
@@ -112,24 +93,17 @@
 }
 
 .Heading-title .title-subhead{
-    /* font-size: 2.83vh;
-    line-height: 4.29vh; */
     font-size: 1.719vw;
     line-height: 2.604vw;
     color: #feb697;
     font-weight: 500;
-    /* margin-top: 0.926rem; */
 }
 .Heading-title .title-button{
     align-items: center;
     width: 14.84vw;
-    /* width: 23.88vh; */
     height: 4.115vw;
-    /* height: 7.314vh; */
-    /* border-radius: 3.34vh; */
     border-radius: 2.03vw;
     background-color: #fff;
-    /* font-size: 2.14vh; */
     font-size: 1.406vw;
     filter: drop-shadow(0px 8px 17.5px rgba(0,0,0,0.21));
     font-weight: 600;
@@ -137,5 +111,4 @@
     border: none;
     margin-bottom: 14.375vw;
     margin-top: 3.125vw;
-    /* margin-top: 2.593rem; */
 }
